@@ -37,7 +37,7 @@ public abstract class BankAccount {
                "\nAccount Type: " + getAccountType();
     }
     
-    @Override
+
     public String toString() {
         return getAccountType() + " - Account Number: " + accountNumber + ", Balance: " + balance;
     }

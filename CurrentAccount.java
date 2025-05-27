@@ -6,7 +6,7 @@ public class CurrentAccount extends BankAccount {
         this.overdraftLimit = overdraftLimit;
     }
     
-    @Override
+
     public void withdraw(double amount) throws InsufficientBalanceException {
         if (amount <= 0) {
             System.out.println("Invalid withdrawal amount.");
@@ -20,8 +20,7 @@ public class CurrentAccount extends BankAccount {
         balance -= amount;
         System.out.println(amount + " withdrawn. New balance: " + balance);
     }
-    
-    @Override
+
     public String getAccountType() {
         return "Current Account";
     }

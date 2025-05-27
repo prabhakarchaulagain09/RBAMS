@@ -6,7 +6,7 @@ public class SavingsAccount extends BankAccount {
         this.interestRate = interestRate;
     }
     
-    @Override
+
     public void withdraw(double amount) throws InsufficientBalanceException {
         if (amount <= 0) {
             System.out.println("Invalid withdrawal amount.");
@@ -27,7 +27,7 @@ public class SavingsAccount extends BankAccount {
         System.out.println("Interest added: " + interest + ". New balance: " + balance);
     }
     
-    @Override
+
     public String getAccountType() {
         return "Savings Account";
     }
