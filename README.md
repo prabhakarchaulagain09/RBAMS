@@ -39,6 +39,12 @@ This is a console-based Java application that simulates a simple banking system 
 
 ## 📸 Screenshots
 
-- `deposit_success.png`
-- `withdrawal_exception.png`
-- `interest_added.png`
+### 1. Deposit Operation
+![Deposit Success](screenshots/deposit_success.png)
+
+### 2. Withdrawal with Exception
+![Withdrawal Exception](screenshots/withdrawal_exception.png)
+
+### 3. Interest Addition
+![Interest Added](screenshots/interest_added.png)
+
