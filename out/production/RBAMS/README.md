@@ -37,8 +37,6 @@ This is a console-based Java application that simulates a simple banking system 
 
 ---
 
-## 📸 Screenshots
+## 🧪 Sample Operations
 
-- `deposit_success.png`
-- `withdrawal_exception.png`
-- `interest_added.png`
+
